@@ -42,10 +42,6 @@ Submersible Water Pump
 
 Power Supply (Battery / Solar – optional)
 
-📸 Prototype Photo
-
-<!-- Replace with your actual image path -->
-
 🌍 Impact
 
 Social Impact: Empowers farmers with real-time, data-driven insights
