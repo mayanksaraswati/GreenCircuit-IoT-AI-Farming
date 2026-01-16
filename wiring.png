@@ -1,0 +1,26 @@
+🔌 GREEN CIRCUIT – Wiring / Connections (with MQ135)
+🧠 ESP32 Pin Connections
+Component	Pin on Sensor	ESP32 Pin
+| Component                         | Pin on Sensor | ESP32 Pin          |
+| --------------------------------- | ------------- | ------------------ |
+| **Soil Moisture Sensor (Analog)   | AO            | GPIO **34**        |
+|                                   | VCC           | **3.3V**           |
+|                                   | GND           | **GND**            |
+| **Rain Sensor (Analog)            | AO            | GPIO **35**        |
+|                                   | VCC           | **3.3V**           |
+|                                   | GND           | **GND**            |
+| **DHT11 Sensor                    | DATA          | GPIO **4**         |
+|                                   | VCC           | **3.3V**           |
+|                                   | GND           | **GND**            |
+| **MQ135 Gas Sensor                | AO            | GPIO **32**        |
+|                                   | VCC           | **5V**             |
+|                                   | GND           | **GND**            |
+| **OLED Display (0.96” I2C)        | SDA           | GPIO **21**        |
+|                                   | SCL           | GPIO **22**        |
+|                                   | VCC           | **3.3V**           |
+|                                   | GND           | **GND**            |
+| **Relay Module                    | IN            | GPIO **26**        |
+|                                   | VCC           | **5V**             |
+|                                   | GND           | **GND**            |
+| **Water Pump                      | +             | Relay **NO**       |
+|                                   | −             | External Power GND |
